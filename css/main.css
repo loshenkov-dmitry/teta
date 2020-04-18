@@ -456,8 +456,7 @@ flex-direction: column;
     }
 
 .header__img {
-    display: none;
-
+    /* display: none; */
     }
 
 .section-about__heading {
@@ -556,7 +555,7 @@ flex-direction: column;
 
 
     .header__img {
-        position: absolute;
+        position: static;
         bottom: 0;
         right: -86px;
     }
