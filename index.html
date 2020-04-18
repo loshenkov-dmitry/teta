@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Teta</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./fonts/unineue/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 <body>
     <header class="header">
@@ -87,7 +88,7 @@
                 <div class="section-about__row">
                     <div class="section-about__video">
                     <div class="promo-video">
-                        <button class="promo-video__play-btn"><img src="./img/play.svg" alt="play"></button>
+                        <button data-fancybox href="https://www.youtube.com/watch?v=LOFxBR4YREU" class="promo-video__play-btn"><img src="./img/play.svg" alt="play"></button>
                         </div>
                     </div>
                     
@@ -124,6 +125,9 @@
                 </div>
         </div>
     </section>
-<script src="./js/main.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script src="./js/main.js"></script>
 </body>
 </html>

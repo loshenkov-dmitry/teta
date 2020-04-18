@@ -96,7 +96,7 @@ body {
 
 
 .header__content {
-    width: 645px;
+    max-width: 645px;
     flex-shrink: 0;
 }
 .header__title {
@@ -115,7 +115,7 @@ font-family: 'Uni Neue', sans-serif;
 }
 
 .header__text {
-    width: 440px;
+    max-width: 440px;
     margin-bottom: 40px;
 
 }
@@ -335,7 +335,7 @@ header__arrow-img {
 }
 
 .section-about__text {
-    width: 560px;
+    max-width: 560px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.75;
@@ -476,7 +476,7 @@ flex-direction: column;
 .section-about__video {
     width: 100%;
     margin-bottom: 75px;
-    
+
 }
 
 .section-about__text {
@@ -549,6 +549,11 @@ flex-direction: column;
         transform: translate(0, 0);
     }
 
+    .header__list {
+        margin-bottom: 45px;
+
+    }
+
 
     .header__img {
         position: absolute;
@@ -604,6 +609,7 @@ flex-direction: column;
     padding: 50px;
     background-color: rgba(41, 69, 67, 0.7);
     transform: translateX(-100%);
+    position: fixed;
 }
 
 
